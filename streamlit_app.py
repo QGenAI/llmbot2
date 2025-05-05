@@ -14,7 +14,7 @@ def icon(emoji: str):
     )
 
 
-icon("🏎️")
+icon("💬")
 
 st.subheader("Jaffar LLM Chat Demo", divider="rainbow", anchor=False)
 
