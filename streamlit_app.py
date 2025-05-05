@@ -2,7 +2,8 @@ import streamlit as st
 from typing import Generator
 from groq import Groq
 
-#MainMenu {
+#MainMenu 
+{
   visibility: hidden;
 }
 
