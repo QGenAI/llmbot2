@@ -2,6 +2,16 @@ import streamlit as st
 from typing import Generator
 from groq import Groq
 
+# Add custom CSS to hide the GitHub icon
+hide_github_icon = """
+#GithubIcon {
+  visibility: hidden;
+}
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
+
+# Your app code goes here
+
 st.set_page_config(page_icon="💬", layout="wide",
                    page_title="LLM Chat Demo...")
 
