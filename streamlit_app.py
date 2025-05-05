@@ -3,7 +3,7 @@ from typing import Generator
 from groq import Groq
 
 st.set_page_config(page_icon="💬", layout="wide",
-                   page_title="jMath Demo...")
+                   page_title="LLM Chat Demo...")
 
 
 def icon(emoji: str):
@@ -16,7 +16,7 @@ def icon(emoji: str):
 
 icon("🏎️")
 
-st.subheader("Jaffar Math Demo", divider="rainbow", anchor=False)
+st.subheader("Jaffar LLM Chat Demo", divider="rainbow", anchor=False)
 
 client = Groq(
     api_key=st.secrets["GROQ_API_KEY"],
