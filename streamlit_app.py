@@ -2,6 +2,10 @@ import streamlit as st
 from typing import Generator
 from groq import Groq
 
+#MainMenu {
+  visibility: hidden;
+}
+
 st.set_page_config(page_icon="💬", layout="wide",
                    page_title="LLM Chat Demo...")
 
